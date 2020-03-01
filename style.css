@@ -1,0 +1,189 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*
+* {
+    border: solid blue;
+}
+*/
+
+p {
+    color: white;
+    font-family: 'Montserrat';
+}
+
+.wholeContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.leftContainer {
+    background-color: red;
+}
+
+.G59Logo {
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column;
+}
+
+.G59Logo img {
+    max-width: 25%;
+    height: auto;
+    
+    
+}
+
+.gradPhotos {
+    display: flex;
+    align-content: flex-end;
+    flex-direction: column;
+    padding-top: 75vmin;
+
+}
+
+.photos {
+    display: flex;
+    flex-direction: row;
+   margin: 10px;
+}
+
+.gradPhotos img {
+    border: solid white 3px;
+    width: 100px;
+    height: auto;
+    margin: 5px;
+    margin-top: 330px;
+}
+
+.photos .mediumSetter {
+    margin-right: 300px;
+    
+}
+
+.gradPhotos .text {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 15px;
+    margin-top: 0px;
+}
+
+.gradPhotos .text p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 9pt;
+}
+
+
+.rightContainer {
+    background-color: black;
+}
+
+.skullLogo {
+    display: flex;
+    flex-flow: row-reverse;
+}
+
+.skullLogo img {
+    max-width: 10%;
+    height: auto;
+    justify-content: flex-end;
+}
+
+.flame {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flame img{
+    max-width: 75%;
+    height: auto;
+}
+
+.albumText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    top: 420px;
+    right: 120px;
+}
+
+.albumText p {
+    font-size: 50pt;
+    font-weight: bold;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.artistName {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.artistName p {
+    margin-bottom: -90px;
+    font-size: 24pt;
+}
+
+.bottomText {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-top: 140px;
+    
+    
+}
+
+.bottomText p {
+    margin-top: 0px;
+    margin-bottom: 0px;    
+}
+
+
+.bottomText .is_this {
+    font-size: 35pt;
+}
+
+.bottomText .our {
+    font-size: 35pt;
+    text-align: left;
+    margin-left: -150px;
+
+}
+
+.bottomText .grave {
+    font-size: 35pt;
+    margin-left: 40px;
+
+}
+
+.bottomText .question {
+    position: absolute;
+    bottom: -447px;
+    right: 200px;
+    font-size: 75pt;
+    font-weight: bolder;
+
+}
+
+
+.advisory {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-content: flex-end;
+    margin: 20px;
+}
+
+.advisory img {
+    max-width: 15%;
+    height: auto;
+}
