@@ -1,0 +1,2 @@
+# -uicideboy-
+I_WANT_TO_DIE_IN_NEW_ORLEANS
